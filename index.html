@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background:url(./anh-nen-xanh-duong_022828384.jpg);
+        }
+    </style>
+    <style>
+            padding:0;
+            margin:0;
+        }
+        #wrapper{
+            max-width: 1170px;
+            margin:0 auto;
+        }
+        .headline{
+            text-align: center;
+            margin:40px 0px;
+        }
+        h3{
+            font-size: 18px;
+            background-color: burlywood;
+            color:#111;
+            padding:10px 20px;
+            text-transform: uppercase;
+            border: 1px solid #111;
+            display:inline-block;
+            color:#555;
+        }
+        .adline{
+            text-align:left;
+            margin:40px 0px;
+        }
+        .badline{
+            text-align:right;
+            margin:40px 0px;
+        }
+        h3{
+            font-size: 18px;
+            color:#111;
+            padding:10px 20px;
+            text-transform: uppercase;
+            border: 1px solid #111;
+            display:inline-block;
+            color:#555;
+        }
+        ul.products{
+            display:flex;
+            flex-wrap:wrap ;
+            justify-content: space-between;
+        }
+        ul.products li{
+            flex-basis: 25%;
+            padding-left: 15px;
+            padding-right: 15px;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+        }
+        ul.products li img{
+            max-width: 100%;
+            height:auto;
+        }
+        ul.products li .product-top {
+            position:relative;
+            overflow:hidden;
+        }
+        ul.products li .product-top .product-thumb{
+            display:block;
+        }
+        ul.products li:hover .product-top .product-thumb img{
+            filter:opacity(80%);
+        }
+        ul.products li .product-top .product-thumb img{
+            display:block;
+        }
+        ul.products li .product-top a.buy-now{
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            display:block;
+            background-color: #446084;
+            color:#fff;
+            padding :10px 0px;
+            position:absolute;
+            bottom:-36px;
+            width:100%;
+            transition:0.25s ease-in-out;
+            opacity: 0.85s;
+        }
+        ul.products li:hover a.buy-now{
+            bottom:0px;
+
+        }
+        ul.products li.product-infor{
+            padding:10px 0px ;
+        }
+        ul.products li .product-infor a{
+           display:block;
+           text-decoration:none ;
+        }
+        ul.products li .product-infor a.product-cat{
+            font-size: 11px;
+            text-transform: uppercase;
+            color:#0a0000;
+            padding:3px 0px;
+        }
+        ul.products li .product-infor a.product-name{
+            color:#334862;
+            padding :3px 0px;
+            
+        }
+        ul.products li .product-infor .product-price{
+            color:#111;
+            padding :2px 0px;
+            font-weight: 600;
+        }
+    </style>
+    <div id="wrapper">
+        <div class="headline"> 
+          <h3>******DANH SÁCH MEME LỚP 12 A1.*****</h3>
+        </div>
+        <div id="wrapper">
+            <div class="adline"> 
+              <h3>XIN CHÀO QUÝ DỊ!!!!!!!</h3>
+            </div>
+        <ul class="products">
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>               
+                     </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat"><b>PEOPLE</b></a>
+                    <a href="" class="product-name"><b>NGÔ THANH VŨ</b></a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                 </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="./anh-dong-bieu-cam-cute-44986.gif" alt="">
+                        </a>
+                        <a href="" class="buy-now"> Mua Ngay </a>
+                    </div>
+                    <div class="product-infor">
+                    <a href="" class="product-cat">PEOPLE</a>
+                    <a href="" class="product-name">NGÔ THANH VŨ</a>
+                    <div class="product-price"> $1000</div>
+                    <a href="https://www.facebook.com/ngo.vu.587268"><b> link face của sản phẩm !</b></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <style>
+            .beadline{
+                text-align: center;
+                margin:40px 0px;
+            }
+            h3{
+                font-size: 18px;
+                background-color: burlywood;
+                color:#111;
+                padding:10px 20px;
+                text-transform: uppercase;
+                border: 1px solid #111;
+                display:inline-block;
+                color:#555;
+            }
+        </style>
+        <div id="wrapper">
+            <div class="beadline"> 
+              <h3>MỌI THẮC MẮC XIN VUI LÒNG LIÊN HỆ SỐ ĐIỆN THOẠI :0373827699 .</h3>
+            </div>
+    </div>
+
+</body>
+</html>
